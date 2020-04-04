@@ -1,4 +1,7 @@
 # DAIN (Depth-Aware Video Frame Interpolation)
+
+Train your model in Colab [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/BurguerJohn/DAIN/blob/master/DainModelTraining.ipynb)
+
 [Project](https://sites.google.com/view/wenbobao/dain) **|** [Paper](http://arxiv.org/abs/1904.00830)
 
 [Wenbo Bao](https://sites.google.com/view/wenbobao/home),
