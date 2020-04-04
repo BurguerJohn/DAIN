@@ -35,6 +35,8 @@ parser.add_argument('--filter_size', '-f', type=int, default=4, help = 'the size
                     choices=[2,4,6, 5,51]
                     )
 
+parser.add_argument('--SAVED_MODEL', type=str, default="", help='A model to be used at the start of the training.')
+
 
 parser.add_argument('--lr', type =float, default= 0.002, help= 'the basic learning rate for three subnetworks (default: 0.002)')
 parser.add_argument('--rectify_lr', type=float, default=0.001, help  = 'the learning rate for rectify/refine subnetworks (default: 0.001)')

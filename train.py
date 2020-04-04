@@ -28,9 +28,9 @@ def train():
         print("Turn the model into CUDA")
         model = model.cuda()
 
-    if not args.SAVED_MODEL==None:
+    if args.SAVED_MODEL != "":
         # args.SAVED_MODEL ='../model_weights/'+ args.SAVED_MODEL + "/best" + ".pth"
-        args.SAVED_MODEL ='./model_weights/best.pth'
+        #args.SAVED_MODEL ='./model_weights/best.pth'
         print("Fine tuning on " +  args.SAVED_MODEL)
         if not  args.use_cuda:
             pretrained_dict = torch.load(args.SAVED_MODEL, map_location=lambda storage, loc: storage)
